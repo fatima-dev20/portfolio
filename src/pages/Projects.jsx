@@ -53,15 +53,7 @@ const Projects = () => {
   category: "redux",
   technologies: ["React", "Redux Toolkit", "React Router", "Tailwind CSS", "React Icons", "Framer Motion"]
 },
-    {
-      id: 6,
-      title: "Blog Application",
-      description: "A blog platform with post creation, editing, and deletion. Uses Redux Toolkit for state management and React Router for navigation.",
-      image: "https://picsum.photos/600/400?random=4",
-      liveLink: "https://project4.vercel.app",
-      category: "api",
-      technologies: ["React", "Redux Toolkit", "React Router", "Tailwind CSS", "JSON Server"]
-    },
+    
    
     
   ];
@@ -72,7 +64,6 @@ const Projects = () => {
     { name: 'React', value: 'react' },
     { name: 'Context API', value: 'context' },
     { name: 'Redux Toolkit', value: 'redux' },
-    { name: 'API Integration', value: 'api' }
   ];
 
   // Filter projects based on active filter

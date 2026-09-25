@@ -22,7 +22,7 @@ const CV = () => {
           {showResume && (
             <div className="border border-violet-500 rounded-xl overflow-hidden h-[460px] mt-4">
               <iframe
-                src="/TEHSEEN FATIMA Frontend.pdf"
+                src="/Tehseen_Fatima_MERN_Stack.pdf"
                 title="Resume"
                 className="w-full h-full"
               ></iframe>

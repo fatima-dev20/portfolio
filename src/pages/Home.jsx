@@ -119,7 +119,7 @@ const Home = () => {
               data-aos-delay="450"
             >
               <img
-                src="https://static.vecteezy.com/system/resources/thumbnails/023/886/157/small/young-smiling-businesswoman-standing-in-blur-background-of-office-generative-ai-photo.jpg"
+                src="profile-image.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full"
               />

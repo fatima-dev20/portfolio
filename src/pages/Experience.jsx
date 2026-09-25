@@ -29,7 +29,6 @@ const Experience = () => {
       title: "Web Development Team Member",
       company: "Codes Thinker",
       period: "Jul 2025-Jun 2025",
-      current: true,
       description: [
         "Working on-site at software house, collaborating with team members on various web development projects",
         "Building responsive web applications using modern front-end technologies",
@@ -165,16 +164,6 @@ const Experience = () => {
                       <h4 className="text-gray-800 text-xl font-bold group-hover:text-violet-600/80 transition-colors">
                         {exp.title}
                       </h4>
-                      {exp.current && (
-                        <span
-                          className="px-2 py-0.5 bg-green-100 text-green-600 text-xs font-semibold rounded-full"
-                          data-aos="zoom-in"
-                          data-aos-duration="500"
-                          data-aos-delay={300 + (index * 150)}
-                        >
-                          Present
-                        </span>
-                      )}
                     </div>
 
                     <div className="flex flex-wrap gap-4 mb-3 text-sm text-gray-600">
